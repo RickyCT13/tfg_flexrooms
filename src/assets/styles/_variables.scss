@@ -21,10 +21,17 @@ $flexrooms-colorLetra--light: color.scale($flexrooms-colorLetra--main, $lightnes
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
 
-/*$font-family-title: ;
-$font-family-serif: ;
-$font-family-sans-serif;*/
+@font-face {
+    font-family: 'Alpha Centauri';
+    src: url('../fonts/Alphacentauri-MVY4p.ttf');
+}
+
+
+$font-family-title: 'Alpha Centauri', sans-serif;
+$font-family-serif: 'Lora', serif;
+$font-family-sans-serif: 'Montserrat', sans-serif;
 
 /*
 
