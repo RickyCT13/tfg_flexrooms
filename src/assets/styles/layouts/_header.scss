@@ -1,0 +1,23 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    .header__zona-titulo {
+        grid-column: 2/5;
+        display: flex;
+        flex-direction: row;
+        .zona-titulo__logo {
+            width: 25%;
+        }
+        .zona-titulo__titulo {
+            width: 75%;
+            h1 {
+                font-family: $font-family-title;
+            }
+        }
+    }
+    .header__zona-navegacion {
+        grid-column: 5/11;
+    }
+
+}
